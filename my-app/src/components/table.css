@@ -1,0 +1,67 @@
+.highlight  {
+  color: black;
+  background-color: rgb(148, 229, 158) ; 
+}
+.manas{
+  color: black;
+  background-color: rgb(231, 156, 151);
+}
+
+.table-container {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-height: 100%; /* Adjust the height as per your preference */
+  /* overflow-y: auto; */
+}
+
+
+.table-container th,
+.table-container td {
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+  /* white-space: nowrap; */
+  /* background-color: rgba(114, 5, 5, 0.995); Set the background color of data cells to light gray */
+}
+
+.table-container th {
+  background-color: #90c6f5; /* Set the background color of headers to light olive green */
+  color: rgb(35, 14, 81);
+   /* Set the text color of headers to white */
+   padding: 10px;
+}
+
+.table-wrapper table {
+    font-size: 20px; /* Adjust the font size as per your preference */
+    margin: 10px;
+  }
+
+.table-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* background-color: #c72121; */
+    padding: 10px;
+    margin-top: 40px;
+    max-height: 2000px; /* Limit vertical growth */
+    /* overflow: auto; Add scroll bar if content exceeds height */
+}
+
+.table-scroll {
+  display: flex;
+  /* flex-direction: row; */
+  align-items: flex-start;
+  background-color: rgba(14, 16, 16, 0.995);
+  padding: 9x;
+  margin-top: 12px;
+  max-height: 950px; /* Limit vertical growth */
+  overflow: auto; /* Add scroll bar if content exceeds height */
+}
+
+.position-fixed{
+  position: sticky;
+  /* background-color: black; */
+}
